@@ -1,7 +1,7 @@
 import pytest
+from utils.logger import Logger
 
 
-class Test:
-    def test(self):
-        print("Running test")
-        assert 1
+def test_something(hello):
+    Logger.info("Running test")
+    assert 1
